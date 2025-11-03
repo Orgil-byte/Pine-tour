@@ -1,0 +1,621 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "GIP";
+  src: url("./fonts/GIP.woff2") format("woff2"),
+    url("./fonts/GIP.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+}
+
+.landpage {
+  background-color: #d8e4e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image1 {
+  background-image: url("./background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 773px;
+  width: 1440px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 118px;
+  padding-right: 118px;
+  height: 100px;
+}
+.logo {
+  background-image: url("./logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 34px;
+}
+.logo-footer {
+  height: 35px;
+  width: 103px;
+}
+.user-image {
+  background-image: url("./vector.png");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.EN {
+  font-family: Arial;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 13px;
+  background-color: white;
+}
+
+.action-container {
+  color: white;
+  justify-content: center;
+  display: flex;
+  width: 392px;
+  height: 22px;
+  gap: 24px;
+  font-family: Arial;
+}
+.size-header {
+  width: 100px;
+  height: 22px;
+  gap: 10px;
+}
+.sec1-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 618px;
+  height: 394px;
+  margin-top: 65px;
+  margin-left: 411px;
+  color: white;
+}
+.pure {
+  font-size: 80px;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  opacity: 72%;
+  line-height: 100%;
+}
+.awaits {
+  font-size: 250px;
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  opacity: 98%;
+  line-height: 100%;
+}
+.sec-2024 {
+  font-size: 64px;
+  font-family: "Hanuman";
+  font-weight: 900;
+  opacity: 80%;
+  line-height: 100%;
+}
+.location-container {
+  background-image: url("./background2.png");
+  background-position: center;
+  width: 1440px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-images {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: -8px -8px rgba(31, 114, 170, 0.4), 8px 8px rgba(41, 115, 139, 0.4);
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+}
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+.lake {
+  background-image: url("./terkh.png");
+}
+.monastery {
+  background-image: url("./monastery.png");
+}
+.khuvsgul {
+  background-image: url("./khuvsgul.png");
+}
+.khorgo {
+  background-image: url("./khorgo.png");
+}
+.frame175 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  left: 12px;
+  gap: 10px;
+  opacity: 80%;
+  width: 270px;
+  height: 370px;
+  justify-content: center;
+  cursor: pointer;
+  text-shadow: 0px 4px #000;
+}
+.frame175:hover {
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+
+.roadmap-container {
+  display: flex;
+  background-image: url("./background3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 1022px;
+  gap: 10px;
+}
+.frame-173 {
+  display: flex;
+  width: 1200px;
+  height: 640px;
+  margin-top: 264px;
+  margin-left: 120px;
+  justify-content: space-between;
+  position: absolute;
+}
+.left-cont {
+  width: 513px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left-cont1 {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background-color: #eee9d9;
+}
+.left-cont-res {
+  justify-content: space-between;
+  padding: 30px;
+}
+.left-cont1,
+.left-cont-res {
+  width: 513px;
+  height: 112px;
+  opacity: 1;
+  border-radius: 120px;
+}
+.left-cont1:hover,
+.left-cont-res:hover {
+  border: 4px solid white;
+  cursor: pointer;
+}
+.left-cont1:hover .picture1 {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+.left-cont-res:hover .pictures {
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+.pictures {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 10;
+}
+.picture1 {
+  background-image: url("./sukhbaatar.png");
+  position: absolute;
+  left: 950px;
+  top: 100px;
+}
+.picture2 {
+  background-image: url("./monastery-map.png");
+  position: absolute;
+  left: 750px;
+  top: 10px;
+}
+.picture3 {
+  background-image: url("./khorgo-map.png");
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+.picture4 {
+  background-image: url("terkh-map.png");
+  position: absolute;
+  left: 550px;
+  top: -100px;
+}
+.picture5 {
+  background-image: url("khuvsgul-map.png");
+  position: absolute;
+  left: 750px;
+  top: 0px;
+}
+.color1 {
+  background: #8bb8c1cc;
+}
+.color2 {
+  background: #aad8d7cc;
+}
+.color3 {
+  background: #8bc0bdcc;
+}
+.color4 {
+  background: #97cce0cc;
+}
+.location-inf {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.location-name {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter";
+  color: #09090b;
+}
+.padd {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.padd-res {
+  display: flex;
+  justify-content: space-between;
+}
+.location-det {
+  display: flex;
+  gap: 12px;
+}
+.icon-cont {
+  background-image: url("./icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 14px;
+  height: 14px;
+}
+.location-reg {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  color: #09090b;
+}
+.day-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 48px;
+  background-color: #f7f6f3;
+  border-radius: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "GIP", sans-serif;
+}
+.right-cont {
+  width: 647px;
+  height: 640px;
+  position: relative;
+}
+.icon-color {
+  background-image: url("./icon-colored.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+.icon1 {
+  top: 181px;
+  left: 492px;
+}
+.icon2 {
+  top: 42px;
+  left: 279px;
+}
+.icon3 {
+  top: 416px;
+  left: 279px;
+}
+.icon4 {
+  top: 164px;
+  left: 107px;
+}
+.frame-104 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 1440px;
+  height: 85px;
+  top: 120px;
+  left: -1px;
+  gap: 10px;
+  position: relative;
+}
+.destination {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "Inter";
+}
+.pack {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter";
+  opacity: 70%;
+  color: #18181b;
+}
+.price-footer {
+  width: 1440px;
+  height: 1120px;
+  background-image: url("./background4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.card-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 527px;
+  margin-top: 204px;
+  margin-left: 120px;
+  gap: 24px;
+  position: absolute;
+}
+.pack-card {
+  background-color: #fafbfc;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 384px;
+  height: 92px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 16px;
+}
+.icon-button {
+  background-image: url("./icon-heart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 37.5px;
+  height: 37.5px;
+  gap: 10px;
+}
+.pack-title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter";
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 384px;
+  height: 435px;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 48px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  height: 290px;
+  gap: 32px;
+}
+.button {
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+  background-color: #a4d1e2;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Inter";
+}
+.pack-card:hover {
+  box-shadow: 8px 8px rgba(41, 114, 139, 0.25), -8px -8px rgba(46, 65, 71, 0.4);
+  transition: all 0.3s ease-out;
+}
+.pack-card:hover .button {
+  background-color: rgba(24, 24, 27, 0.9);
+  color: #fafafa;
+  transition: all 0.3s ease-out;
+}
+
+.price-section {
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  height: 78px;
+  gap: 10px;
+}
+.price {
+  color: #303030;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.comfy {
+  color: #919191;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+.subtitle-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 336px;
+  gap: 10px;
+}
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafbfc;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #6972b5;
+  width: 91px;
+  height: 27px;
+  border-radius: 9999px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.includes {
+  display: flex;
+  flex-direction: column;
+  width: 336px;
+  height: 180px;
+  gap: 16px;
+}
+.includes-header {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Inter";
+  gap: 10px;
+  width: 336px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.item-cont {
+  display: flex;
+  flex-direction: row;
+  width: 336px;
+  gap: 20px;
+}
+.zuw {
+  background-image: url("./check.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+.item-text {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter";
+  color: #3f4145;
+}
+.footer-sec {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 1440px;
+  height: 204px;
+  top: 916px;
+  position: absolute;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.social-med {
+  display: flex;
+  gap: 20px;
+}
+.facebook {
+  display: flex;
+  width: 167px;
+  height: 44px;
+  border-radius: 9999px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  gap: 10px;
+  background-color: #fafbfc;
+}
+.insta,
+.fb {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+.insta {
+  background-image: url("./insta.png");
+}
+.fb {
+  background-image: url("./FB.png");
+}
+.footer-link {
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #6972b5;
+}
+.title-cont {
+  display: flex;
+  width: 1440px;
+  height: 85px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+.footer-title {
+  font-size: 42px;
+  font-family: "Inter";
+  font-weight: 600;
+  color: #000000;
+}
+.footer-title1 {
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 500;
+  color: #18181b;
+  opacity: 70%;
+}
