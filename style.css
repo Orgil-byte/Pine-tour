@@ -52,8 +52,8 @@ body {
 }
 .user-image {
   background-image: url("./vector.png");
-  width: 20px;
-  height: 20px;
+  width: 11.666666030883789px;
+  height: 15px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -129,6 +129,7 @@ body {
   border-radius: 40px;
   overflow: hidden;
   box-shadow: -8px -8px rgba(31, 114, 170, 0.4), 8px 8px rgba(41, 115, 139, 0.4);
+  background-position: center;
 }
 
 .overlay {
@@ -203,10 +204,15 @@ body {
   padding-right: 30px;
   padding-bottom: 30px;
   background-color: #eee9d9;
+  border-width: 4px;
+  border-color: #eee9d9;
+  border-style: solid;
 }
 .left-cont-res {
   justify-content: space-between;
   padding: 30px;
+  border-width: 4px;
+  border-style: solid;
 }
 .left-cont1,
 .left-cont-res {
@@ -269,15 +275,19 @@ body {
 }
 .color1 {
   background: #8bb8c1cc;
+  border-color: #8bb8c1cc;
 }
 .color2 {
   background: #aad8d7cc;
+  border-color: #aad8d7cc;
 }
 .color3 {
   background: #8bc0bdcc;
+  border-color: #8bc0bdcc;
 }
 .color4 {
   background: #97cce0cc;
+  border-color: #97cce0cc;
 }
 .location-inf {
   display: flex;
