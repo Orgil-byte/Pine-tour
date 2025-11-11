@@ -24,7 +24,7 @@ body {
   align-items: center;
 }
 .image1 {
-  background-image: url("./background1.png");
+  background-image: url("images/background1.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 773px;
@@ -40,7 +40,7 @@ body {
   height: 100px;
 }
 .logo {
-  background-image: url("./logo.png");
+  background-image: url("images/logo.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100px;
@@ -51,7 +51,7 @@ body {
   width: 103px;
 }
 .user-image {
-  background-image: url("./vector.png");
+  background-image: url("images/vector.png");
   width: 11.666666030883789px;
   height: 15px;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body {
   line-height: 100%;
 }
 .location-container {
-  background-image: url("./background2.png");
+  background-image: url("images/background2.png");
   background-position: center;
   width: 1440px;
   height: 500px;
@@ -141,16 +141,16 @@ body {
   transition: all 0.4s ease;
 }
 .lake {
-  background-image: url("./terkh.png");
+  background-image: url("images/terkh.png");
 }
 .monastery {
-  background-image: url("./monastery.png");
+  background-image: url("images/monastery.png");
 }
 .khuvsgul {
-  background-image: url("./khuvsgul.png");
+  background-image: url("images/khuvsgul.png");
 }
 .khorgo {
-  background-image: url("./khorgo.png");
+  background-image: url("images/khorgo.png");
 }
 .frame175 {
   display: flex;
@@ -176,7 +176,7 @@ body {
 
 .roadmap-container {
   display: flex;
-  background-image: url("./background3.png");
+  background-image: url("images/background3.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
@@ -244,31 +244,31 @@ body {
   z-index: 10;
 }
 .picture1 {
-  background-image: url("./sukhbaatar.png");
+  background-image: url("images/sukhbaatar.png");
   position: absolute;
   left: 950px;
   top: 100px;
 }
 .picture2 {
-  background-image: url("./monastery-map.png");
+  background-image: url("images/monastery-map.png");
   position: absolute;
   left: 750px;
   top: 10px;
 }
 .picture3 {
-  background-image: url("./khorgo-map.png");
+  background-image: url("images/khorgo-map.png");
   position: absolute;
   left: 600px;
   top: 100px;
 }
 .picture4 {
-  background-image: url("terkh-map.png");
+  background-image: url("images/terkh-map.png");
   position: absolute;
   left: 550px;
   top: -100px;
 }
 .picture5 {
-  background-image: url("khuvsgul-map.png");
+  background-image: url("images/khuvsgul-map.png");
   position: absolute;
   left: 750px;
   top: 0px;
@@ -314,7 +314,7 @@ body {
   gap: 12px;
 }
 .icon-cont {
-  background-image: url("./icon.png");
+  background-image: url("images/icon.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 14px;
@@ -344,7 +344,7 @@ body {
   position: relative;
 }
 .icon-color {
-  background-image: url("./icon-colored.png");
+  background-image: url("images/icon-colored.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 34px;
@@ -394,7 +394,7 @@ body {
 .price-footer {
   width: 1440px;
   height: 1120px;
-  background-image: url("./background4.png");
+  background-image: url("images/background4.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -427,7 +427,7 @@ body {
   gap: 16px;
 }
 .icon-button {
-  background-image: url("./icon-heart.png");
+  background-image: url("images/icon-heart.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 37.5px;
@@ -546,7 +546,7 @@ body {
   gap: 20px;
 }
 .zuw {
-  background-image: url("./check.png");
+  background-image: url("images/check.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 20px;
@@ -595,10 +595,10 @@ body {
   height: 24px;
 }
 .insta {
-  background-image: url("./insta.png");
+  background-image: url("images/insta.png");
 }
 .fb {
-  background-image: url("./FB.png");
+  background-image: url("images/FB.png");
 }
 .footer-link {
   font-size: 18px;
